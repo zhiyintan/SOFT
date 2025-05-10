@@ -1,0 +1,25 @@
+Schema	Dataset	Model	Accuracy	ACL-ARC Marco F1	Cross-domain (ACT2) Accuracy	Cross-domain (ACT2) Marco F1
+ACL-ARC-6 types	ACL-ARC	zero-shot Llama-3.1-70B-Instruct 	0.58	0.52	0.6	0.13
+ACL-ARC-6 types	ACL-ARC	zero-shot Mistral-Small-24B-Instruct-2501	0.54	0.49	0.59	0.16
+ACL-ARC-6 types	ACL-ARC	zero-shot Gemma-3-27B-it	0.65	0.48	0.62	0.17
+ACL-ARC-6 types	ACL-ARC	zero-shot Qwen-2.5-72B-Instruct	0.48	0.45	0.63	0.23
+ACL-ARC-6 types	ACL-ARC	fine-tuned SciBERT	0.66	0.55	0.47	0.12
+ACL-ARC-6 types	ACL-ARC	fine-tuned Qwen-2.5-14B-Instruct	0.65	0.51	0.58	0.49
+SciCite-3 types	ACL-ARC	zero-shot Llama-3.1-70B-Instruct 	0.72	0.63	0.8	0.37
+SciCite-3 types	ACL-ARC	zero-shot Mistral-Small-24B-Instruct-2501	0.67	0.59	0.81	0.41
+SciCite-3 types	ACL-ARC	zero-shot Gemma-3-27B-it	0.7	0.63	0.8	0.36
+SciCite-3 types	ACL-ARC	zero-shot Qwen-2.5-72B-Instruct	0.67	0.59	0.84	0.45
+SciCite-3 types	ACL-ARC	fine-tuned SciBERT	0.77	0.69	0.66	0.34
+SciCite-3 types	ACL-ARC	fine-tuned Qwen-2.5-14B-Instruct	0.69	0.62	0.4	0.23
+Cited Content Type	ACL-ARC	zero-shot Llama-3.1-70B-Instruct 	0.73	0.67	0.75	0.55
+Cited Content Type	ACL-ARC	zero-shot Mistral-Small-24B-Instruct-2501	0.67	0.61	0.78	0.46
+Cited Content Type	ACL-ARC	zero-shot Gemma-3-27B-it	0.74	0.68	0.73	0.58
+Cited Content Type	ACL-ARC	zero-shot Qwen-2.5-72B-Instruct	0.7	0.67	0.77	0.6
+Cited Content Type	ACL-ARC	fine-tuned SciBERT	0.7	0.7	0.58	0.41
+Cited Content Type	ACL-ARC	fine-tuned Qwen-2.5-14B-Instruct	0.79	0.78	0.75	0.64
+Citation Intent	ACL-ARC	zero-shot Llama-3.1-70B-Instruct 	0.79	0.72	0.72	0.57
+Citation Intent	ACL-ARC	zero-shot Mistral-Small-24B-Instruct-2501	0.74	0.71	0.69	0.57
+Citation Intent	ACL-ARC	zero-shot Gemma-3-27B-it	0.71	0.59	0.71	0.55
+Citation Intent	ACL-ARC	zero-shot Qwen-2.5-72B- Instruct	0.81	0.75	0.82	0.64
+Citation Intent	ACL-ARC	fine-tuned SciBERT	0.72	0.53	0.52	0.2
+Citation Intent	ACL-ARC	fine-tuned Qwen-2.5-14B-Instruct	0.77	0.65	0.77	0.56

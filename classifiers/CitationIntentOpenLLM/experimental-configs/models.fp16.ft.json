@@ -1,0 +1,18 @@
+{
+    
+    "QWEN2.5_14B_AC_FT": {
+        "path": "LLaMA-Factory/saves/Qwen2.5-14B-Instruct/export_2025-04-22_act2-alpaca_config4",
+        "context_length": 10000,
+        "label_schema": "acl-arc"
+    },
+    "QWEN2.5_14B_SC_FT": {
+        "path": "LLaMA-Factory/saves/Qwen2.5-14B-Instruct/export_2025-04-22_scicite-alpaca_config4",
+        "context_length": 10000,
+        "label_schema": "scicite"
+    },
+    "QWEN2.5_14B_AA_FT": {
+        "path": "LLaMA-Factory/saves/Qwen2.5-14B-Instruct/export_2025-04-22_aclarc-alpaca_config4",
+        "context_length": 10000,
+        "label_schema": "acl-arc"
+    }
+}

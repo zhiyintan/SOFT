@@ -1,0 +1,32 @@
+{
+  "model_name": "QWEN2.5_14B_AA_NEW_FT",
+  "model_path": "LLaMA-Factory/saves/Qwen2.5-14B-Instruct/export_2025-04-22_aclnew-alpaca_config4",
+  "model_context_length": 10000,
+  "label_schema": "acl-arc",
+  "args": [
+    {
+      "dataset": "acl_new",
+      "temperature": 1.0,
+      "model_name": "QWEN2.5_14B_AA_NEW_FT",
+      "bit_precision": "fp16",
+      "run_id": "1 - SFT FP16",
+      "examples_seed": 42
+    },
+    {
+      "dataset": "acl_new",
+      "temperature": 0.8,
+      "model_name": "QWEN2.5_14B_AA_NEW_FT",
+      "bit_precision": "fp16",
+      "run_id": "1 - SFT FP16",
+      "examples_seed": 42
+    },
+    {
+      "dataset": "acl_new",
+      "temperature": 0.6,
+      "model_name": "QWEN2.5_14B_5_14B_AA_NEW_FT",
+      "bit_precision": "fp16",
+      "run_id": "1 - SFT FP16",
+      "examples_seed": 42
+    }
+  ]
+}

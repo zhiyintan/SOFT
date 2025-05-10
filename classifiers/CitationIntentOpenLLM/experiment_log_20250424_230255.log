@@ -1,0 +1,12 @@
+2025-04-24 23:02:55,324 - INFO - Processing model: QWEN2.5_14B_AC_FT
+2025-04-24 23:02:55,325 - INFO - Processing dataset: scicite
+2025-04-24 23:02:55,325 - INFO - Processing dataset: acl-arc
+2025-04-24 23:02:55,325 - INFO - Processing dataset: act2
+2025-04-24 23:02:55,329 - INFO - Processing model: QWEN2.5_14B_SC_FT
+2025-04-24 23:02:55,329 - INFO - Processing dataset: scicite
+2025-04-24 23:02:55,329 - INFO - Processing dataset: acl-arc
+2025-04-24 23:02:55,329 - INFO - Processing dataset: act2
+2025-04-24 23:02:55,334 - INFO - Processing model: QWEN2.5_14B_AA_FT
+2025-04-24 23:02:55,334 - INFO - Processing dataset: scicite
+2025-04-24 23:02:55,334 - INFO - Processing dataset: acl-arc
+2025-04-24 23:02:55,334 - INFO - Processing dataset: act2

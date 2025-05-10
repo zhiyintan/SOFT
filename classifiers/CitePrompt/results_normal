@@ -1,0 +1,68 @@
+====================
+dataset scicite	template_id None	epochs 5	seed 144	verb kpt	filt none	maxsplit -1	kptw_lr 0.0	Acc: 0.8498659517426274	F1(macro): 0.8318614093257574	F1(micro): 0.8498659517426274	
+====================
+dataset acl_arc	template_id None	epochs 5	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.0	Acc: 0.6936619718309859	F1(macro): 0.5598933902853352	F1(micro): 0.6936619718309859	
+====================
+dataset acl_arc	template_id None	epochs 50	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.0	Acc: 0.7007042253521126	F1(macro): 0.5894149805524952	F1(micro): 0.7007042253521126	
+====================
+train_dataset acl_arc	test_dataset scicite	template_id None	epochs 50	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5297587131367292	F1(macro): 0.15857373547369255	F1(micro): 0.5297587131367292	
+====================
+train_dataset scicite	test_dataset act2	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.7313432835820896	F1(macro): 0.4426305102220434	F1(micro): 0.7313432835820896	
+====================
+train_dataset act2	test_dataset act2	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.6044776119402985	F1(macro): 0.409285127133223	F1(micro): 0.6044776119402985	
+====================
+train_dataset scicite	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5598591549295775	F1(macro): 0.36730086446434085	F1(micro): 0.5598591549295775	
+====================
+train_dataset acl_arc	test_dataset scicite	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5302949061662199	F1(macro): 0.15562071212295428	F1(micro): 0.5302949061662199	
+====================
+train_dataset act2	test_dataset scicite	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.43056300268096515	F1(macro): 0.13485325954149605	F1(micro): 0.43056300268096515	
+====================
+train_dataset act2	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5352112676056338	F1(macro): 0.3194339539076381	F1(micro): 0.5352112676056338	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.676056338028169	F1(macro): 0.5416205451917772	F1(micro): 0.676056338028169	
+====================
+train_dataset acl_arc	test_dataset act2	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5410447761194029	F1(macro): 0.19703930619042384	F1(micro): 0.5410447761194029	
+====================
+train_dataset scicite	test_dataset scicite	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.8707774798927614	F1(macro): 0.8555436469629253	F1(micro): 0.8707774798927614	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.13380281690140844	F1(macro): 0.1051506340539722	F1(micro): 0.13380281690140844	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.38380281690140844	F1(macro): 0.3623247771915373	F1(micro): 0.38380281690140844	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.704225352112676	F1(macro): 0.7041646463013848	F1(micro): 0.704225352112676	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.721830985915493	F1(macro): 0.5343010604915367	F1(micro): 0.721830985915493	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.704225352112676	F1(macro): 0.7041646463013848	F1(micro): 0.704225352112676	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.6619718309859155	F1(macro): 0.5543333311927001	F1(micro): 0.6619718309859155	
+====================
+train_dataset acl_arc_scicite_schema	test_dataset acl_arc_scicite_schema	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.7746478873239436	F1(macro): 0.696123930764294	F1(micro): 0.7746478873239436	
+====================
+train_dataset acl_arc_scicite_schema	test_dataset act2_scicite_schema	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.6628787878787878	F1(macro): 0.3428820700857175	F1(micro): 0.6628787878787878	
+====================
+train_dataset acl_arc	test_dataset act2	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.4734848484848485	F1(macro): 0.12902415458937197	F1(micro): 0.4734848484848485	
+====================
+train_dataset acl_new	test_dataset acl_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.721830985915493	F1(macro): 0.5343010604915367	F1(micro): 0.721830985915493	
+====================
+train_dataset acl_new	test_dataset acl_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.704225352112676	F1(macro): 0.7041646463013848	F1(micro): 0.704225352112676	
+====================
+train_dataset acl_new	test_dataset act2_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5795454545454546	F1(macro): 0.4061683552143049	F1(micro): 0.5795454545454546	
+====================
+train_dataset acl_new	test_dataset act2_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5189393939393939	F1(macro): 0.20400697799248527	F1(micro): 0.5189393939393939	
+====================
+train_dataset acl_arc	test_dataset acl_arc	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.6795774647887324	F1(macro): 0.49635712670846394	F1(micro): 0.6795774647887324	
+====================
+train_dataset acl_arc_scicite_schema	test_dataset acl_arc_scicite_schema	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.7535211267605634	F1(macro): 0.6851033833902062	F1(micro): 0.7535211267605634	
+====================
+train_dataset acl_new	test_dataset acl_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.721830985915493	F1(macro): 0.505978365563986	F1(micro): 0.721830985915493	
+====================
+train_dataset acl_new	test_dataset acl_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.7253521126760564	F1(macro): 0.7177016742770167	F1(micro): 0.7253521126760564	
+====================
+train_dataset acl_arc	test_dataset act2	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.4810606060606061	F1(macro): 0.1388475323959195	F1(micro): 0.4810606060606061	
+====================
+train_dataset acl_arc_scicite_schema	test_dataset act2_scicite_schema	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.6666666666666666	F1(macro): 0.32384498264030775	F1(micro): 0.6666666666666666	
+====================
+train_dataset acl_new	test_dataset act2_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5795454545454546	F1(macro): 0.4061683552143049	F1(micro): 0.5795454545454546	
+====================
+train_dataset acl_new	test_dataset act2_new	template_id None	epochs 10	seed 144	verb kpt	filt tfidf_filter	maxsplit -1	kptw_lr 0.06	Acc: 0.5340909090909091	F1(macro): 0.17403699695366362	F1(micro): 0.5340909090909091	

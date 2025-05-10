@@ -1,0 +1,22 @@
+{
+    "methods": ["few-shot"],
+    "number_of_examples": {
+        "few-shot": 5
+    },
+    "examples_seed": 42,
+    "datasets": ["scicite", "acl-arc", "act2", "acl_arc_scicite_schema"],
+    "system_prompts": [3],
+    "class_labels": {
+        "scicite": ["background information", "method", "results comparison"],
+        "acl_arc_scicite_schema": ["background information", "method", "result comparison"],
+        "acl-arc": ["BACKGROUND", "MOTIVATION", "USES", "EXTENDS", "COMPARES_CONTRASTS", "FUTURE"],
+        "act2": ["BACKGROUND", "MOTIVATION", "USES", "EXTENSION", "COMPARES_CONTRASTS", "FUTURE"],
+        "act2_scicite_schema": ["background information", "method", "result comparison"]
+    },
+    "examples_methods": ["2-roles"],
+    "query_templates": ["2-qa-multiple-choice"],
+    "temperature": [1.0],
+    "bit_precision": "fp16",
+    "finetuned": true,
+    "run_id": "1 - SFT FP16"
+}

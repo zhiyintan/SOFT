@@ -1,0 +1,18 @@
+__pycache__/
+prompt/
+datasets/
+new_framework/
+new_schema_annotations/
+run_acl/
+run_scicite/
+annotate_outputs/
+results/
+LLaMA-Factory/
+ckpts/
+related_work/
+
+**/.DS_Store
+# results/scicite/.DS_Store
+# system_prompts/.DS_Store
+
+

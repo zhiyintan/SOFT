@@ -7,7 +7,7 @@ root
 │   ├── CitationIntentOpenLLM
 │   └── CitePrompt 
 ├── visualization              >>  paper figures code
-└── *.py                       >>  get annotation from open LLMs
+└── llm_annotation             >>  get annotations from open LLMs for Human-LLM IAA evaluations
 ```
 
 ## Requirements
@@ -16,7 +16,7 @@ root
 
 ## How TO Use
 
-`python acl_data_acl_schema.py --model_type=[gemma|llama|mistral|qwen]`
+`python llm_annotation/acl_data_acl_schema.py --model_type=[gemma|llama|mistral|qwen]`
 
 ## Acknowledgment
 

@@ -7,7 +7,8 @@ This repository contains the dataset and accompanying code for the paper “Sema
 root
 ├── classifiers                >>  open-sourced CIC classifiers that used for experiments
 │   ├── CitationIntentOpenLLM
-│   └── CitePrompt 
+│   └── CitePrompt
+├── dataset                    >>  re-annotated datasets that are used in the paper
 ├── visualization              >>  paper figures code
 └── llm_annotation             >>  get annotations from open LLMs for Human-LLM IAA evaluations
 ```
